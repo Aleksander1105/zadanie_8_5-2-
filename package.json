@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Aleksander1105/zadanie_8_5/issues"
   },
-  "homepage": "https://github.com/Aleksander1105/zadanie_8_5#readme"
+  "homepage": "https://github.com/Aleksander1105/zadanie_8_5#readme",
+  "devDependencies": {
+    "package.json": "^2.0.1"
+  }
 }
