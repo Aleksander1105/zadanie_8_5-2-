@@ -4,8 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "jshint": "glob-run jshint *.js",
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aleksander1105/zadanie_8_5.git"
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Aleksander1105/zadanie_8_5#readme",
   "devDependencies": {
+    "jshint": "^2.9.5",
     "package.json": "^2.0.1"
+  },
+  "dependencies": {
+    "glob-run": "^0.1.6"
   }
 }
