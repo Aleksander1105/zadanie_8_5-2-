@@ -1,4 +1,4 @@
-//*********************************
+//Doesn not work!!
 var myFunction = function() {
 	var a = parseFloat(document.getElementById('base').value);
 	var h = parseFloat(document.getElementById('height').value);
