@@ -8,7 +8,7 @@ var myFunction = function() {
 	if(isNaN(base) || (isNaN(height)) {
 		output.textContent = "0";
 	} else {
-		var area = 0.5 * base * height;
+		var area = 0.5*a*h;
 		output.textContent = area;
 	}
 
