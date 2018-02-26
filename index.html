@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -11,7 +12,22 @@
         <img src="Trriangle field.png" alt="Triangle field">
   	</div>
   	<div class="container">
-  		
+  		<h2>Area of a triangle = 1/2 a*h</h2>
+  		<div class="base">
+  			<p>Base of a tiangle</p>
+  			<input id="base" name="number" min="0" required>
+  			<p>cm</p>
+  		</div>
+  		<div class="height">
+  			<p>Height of a tiangle</p>
+  			<input id="height" name="number" min="0" required>
+  			<p>cm</p>
+  		</div>
+  		<h3>Check it out!</h3>
+  		<div class="calc">
+  			<p id="output"></p>
+  		</div>
+  		<button type="button" onclick="triangleArea()">Count</button>
   	</div>
     <script type="text/javascript" src="script.js"></script>
   </body>

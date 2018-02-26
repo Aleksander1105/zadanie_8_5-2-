@@ -1,4 +1,69 @@
-.container {
+body {
+	font-family: 'Source Serif Pro', serif;
+}
+
+.banner {
 	text-align: center;
 	margin: 0 auto;
+}
+
+.container {
+	text-align: center;
+	margin: 20px auto;
+	background-color: #5355bd;
+	width: 600px;
+	height: 450px;
+	border-radius: 10px;
+	padding: 25px 0 10px 0;
+}
+
+
+.container h2 {
+	text-decoration: underline;
+}
+
+.base,
+.height {
+	margin: 10px 40px;
+	display: inline-flex;
+}
+
+input {
+	margin: 7px 10px 0 10px;
+	background-color: #B28E4B;
+	width: 60px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+}
+
+*:focus {
+	outline: none;
+}
+
+.container p {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.calc {
+	background-color: #B28E4B;
+	width: 70px;
+	height: 40px;
+	margin: 25px auto;
+	border-radius: 10px;
+}
+
+button {
+	background-color: #000;
+	padding: 15px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: #222222;
 }

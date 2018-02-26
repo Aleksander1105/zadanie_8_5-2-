@@ -1,4 +1,18 @@
-var a = 5;
-var h = 4;
-var triangleArea = a*h/2;
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+//*********************************
+var myFunction = function() {
+	var a = parseFloat(document.getElementById('base').value);
+	var h = parseFloat(document.getElementById('height').value);
+
+	var output = document.getElementById('output');
+
+	if(isNaN(base) || (isNaN(height)) {
+		output.textContent = "0";
+	} else {
+		var area = 0.5 * base * height;
+		output.textContent = area;
+	}
+
+	//alert('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+    console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+	
+};
