@@ -31,10 +31,14 @@ body {
 input {
 	margin: 7px 10px 0 10px;
 	background-color: #B28E4B;
-	width: 60px;
+	width: 40px;
 	height: 40px;
 	border: none;
 	border-radius: 10px;
+	padding-left: 30px;
+	font-size: 1.2em;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
 }
 
 *:focus {
@@ -52,6 +56,10 @@ input {
 	height: 40px;
 	margin: 25px auto;
 	border-radius: 10px;
+}
+
+.calc p {
+	padding-top: 10px;
 }
 
 button {
