@@ -1,4 +1,3 @@
-//Doesn not work!!
 var getTrangleArea = function() {
 	var base = parseFloat(document.getElementById('base').value);
 	var height = parseFloat(document.getElementById('height').value);
